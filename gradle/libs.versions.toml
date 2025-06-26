@@ -1,0 +1,13 @@
+[versions]
+apache-commons = "3.17.0"
+jetbrains-annotations = "26.0.2"
+
+fabric-mapping-io = "0.7.1"
+fabric-tiny-remapper = "0.11.1"
+
+[libraries]
+apache-commons = { module = "org.apache.commons:commons-lang3", version.ref = "apache-commons" }
+jetbrains-annotations = { module = "org.jetbrains:annotations", version.ref = "jetbrains-annotations" }
+
+fabric-mapping-io = { module = "net.fabricmc:mapping-io", version.ref = "fabric-mapping-io" }
+fabric-tiny-remapper = { module = "net.fabricmc:tiny-remapper", version.ref = "fabric-tiny-remapper" }
