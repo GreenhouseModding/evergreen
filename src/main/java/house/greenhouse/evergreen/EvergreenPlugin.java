@@ -20,7 +20,7 @@ public class EvergreenPlugin implements Plugin<Project> {
 
         project.getRepositories().maven(repo -> {
             repo.setName("Mojang");
-            repo.setUrl(EvergreenConstants.BASE_LIBRARIES_URL);
+            repo.setUrl(EvergreenConstants.MINECRAFT_LIBRARIES_URL);
         });
         project.getRepositories().maven(repo -> {
             repo.setName("Fabric");

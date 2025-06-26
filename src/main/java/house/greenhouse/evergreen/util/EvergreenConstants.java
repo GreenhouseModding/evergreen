@@ -1,10 +1,10 @@
 package house.greenhouse.evergreen.util;
 
 public class EvergreenConstants {
-    // Xplat
-    public static final String BASE_LIBRARIES_URL = "https://libraries.minecraft.net/";
-    public static final String BASE_RESOURCES_URL = "https://resources.download.minecraft.net/";
-    public static final String VERSION_MANIFEST = "https://piston-meta.mojang.com/mc/game/version_manifest_v2.json";
+    // Minecraft
+    public static final String MINECRAFT_LIBRARIES_URL = "https://libraries.minecraft.net/";
+    public static final String MINECRAFT_RESOURCES_URL = "https://resources.download.minecraft.net/";
+    public static final String MINECRAFT_VERSION_MANIFEST = "https://piston-meta.mojang.com/mc/game/version_manifest_v2.json";
 
     // Fabric
     public static final String FABRIC_REPO = "https://maven.fabricmc.net/";
